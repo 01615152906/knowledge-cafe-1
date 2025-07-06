@@ -4,9 +4,9 @@
     "cover": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg",
     "title": "Exploring the Mountains",
     "author": "Emily Carter",
-    "author-img": "https://randomuser.me/api/portraits/women/44.jpg",
-    "posted-date": "2025-07-01",
-    "reading-time": 4,
+    "authorimg": "https://randomuser.me/api/portraits/women/44.jpg",
+    "posteddate": "2025-07-01",
+    "readingtime": 4,
     "hashtags": ["#travel", "#adventure"]
   },
   {
@@ -14,9 +14,9 @@
     "cover": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
     "title": "Ocean Vibes",
     "author": "Daniel Moore",
-    "author-img": "https://randomuser.me/api/portraits/men/32.jpg",
-    "posted-date": "2025-07-02",
-    "reading-time": 5,
+    "authorimg": "https://randomuser.me/api/portraits/men/32.jpg",
+    "posteddate": "2025-07-02",
+    "readingtime": 5,
     "hashtags": ["#beach", "#nature"]
   },
   {
@@ -24,9 +24,9 @@
     "cover": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e",
     "title": "City Lights and Late Nights",
     "author": "Sarah Miles",
-    "author-img": "https://randomuser.me/api/portraits/women/68.jpg",
-    "posted-date": "2025-07-03",
-    "reading-time": 3,
+    "authorimg": "https://randomuser.me/api/portraits/women/68.jpg",
+    "posteddate": "2025-07-03",
+    "readingtime": 3,
     "hashtags": ["#citylife", "#night"]
   },
   {
@@ -34,9 +34,9 @@
     "cover": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846",
     "title": "Creative Workspace Hacks",
     "author": "Mark Johnson",
-    "author-img": "https://randomuser.me/api/portraits/men/85.jpg",
-    "posted-date": "2025-07-04",
-    "reading-time": 6,
+    "authorimg": "https://randomuser.me/api/portraits/men/85.jpg",
+    "posteddate": "2025-07-04",
+    "readingtime": 6,
     "hashtags": ["#productivity", "#workspace"]
   },
   {
@@ -44,9 +44,11 @@
     "cover": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
     "title": "Remote Work Revolution",
     "author": "Linda Park",
-    "author-img": "https://randomuser.me/api/portraits/women/75.jpg",
-    "posted-date": "2025-07-05",
-    "reading-time": 7,
+    "authorimg": "https://randomuser.me/api/portraits/women/75.jpg",
+    "posteddate": "2025-07-05",
+    "readingtime": 7,
     "hashtags": ["#remote", "#futureofwork"]
   }
 ]
+
+

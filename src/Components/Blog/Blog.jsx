@@ -3,16 +3,16 @@
 
 import { BsBookmark } from "react-icons/bs";
 import PropTypes from 'prop-types';
-const Blog = ({blog, handleAddToBookmark}) => {
+const Blog = ({blog, handleAddToBookmark, handleMarkAsRead}) => {
 const { title, cover, author, authorimg, readingtime, posteddate, hashtags} = blog;
 
     return (
-        <div className='mb-20'> 
+        <div className='mb-20 space-y-4'> 
 
 <img className='w-full mb-8 rounded-xl ' src={cover} alt={`Cover picture of the title ${title}`} />
 
 
-<div className='flex justify-between mb-4'>
+<div className='flex justify-between mb-4 '>
 
     <div className='flex '>
 <img className='w-14 rounded-full' src={authorimg} alt="" />
@@ -51,6 +51,10 @@ const { title, cover, author, authorimg, readingtime, posteddate, hashtags} = bl
     }
 </p>
 
+<button 
+onClick={ () => handleMarkAsRead(readingtime)}
+className="text-purple-800 font-bold underline"
+>Mark as read</button>
 
 
         </div>

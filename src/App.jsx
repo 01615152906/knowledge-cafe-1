@@ -26,12 +26,17 @@ setBookmarks(newBookmarks);
 
   }
 
-const handleMarkAsRead = time =>{
+const handleMarkAsRead = (id, time) =>{
   // console.log('Mark as read',time)
 
 
   const newReadingTime = readingtime + time;
   setReadingTime(newReadingTime)
+
+  // remove the read blog from bookmark
+  // console.log('remove bookmark', id)
+  const reimainingBookmarks = bookmarks.filter (bookmark => bookmark.id !== id);
+  setBookmarks(reimainingBookmarks);
 }
 
 

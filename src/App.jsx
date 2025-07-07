@@ -1,8 +1,11 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import React from 'react'
 import { useState } from 'react'
 import './App.css'
+// import './index.css'
+
 import Blogs from './Components/Blogs/Blogs'
 import Bookmarkes from './Components/Bookmarkes/Bookmarkes'
 

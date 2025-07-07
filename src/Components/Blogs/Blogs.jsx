@@ -1,5 +1,5 @@
 
-// import React from 'react';
+import React from 'react';
 
 
 import { useEffect, useState } from "react";
@@ -20,7 +20,7 @@ fetch('Blogs.json')
 },[])
 
     return (
-        <div className="md: w-2/3  ">
+        <div className='md: w-2/3'>
           <h1 className="text-3xl text-center p-1 font-bold">Blogs: {blogs.length}</h1> 
 
 {
